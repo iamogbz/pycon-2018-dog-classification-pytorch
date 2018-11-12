@@ -1,0 +1,9 @@
+name: myenv
+channels:
+  - defaults
+dependencies:
+  - pip:
+    - torch
+    - torchvision
+    - pillow
+    - azureml-core
